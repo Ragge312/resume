@@ -6,30 +6,97 @@
     <title>Document</title>
     <meta name = 'descripyion' contetn = 'Киномонстер - это портал о кино '>
     <meta name = 'keywords' content = 'фильмы, фильмы олайн '/>
+
+    <link rel="stylesheet" href="01_css.css">
 </head>
 <body>
-    <div>
-        <h1>Таран Артём </h1>
-        <p>Меня зовут Артём. мне 16 лет , я родился в городе <strong>Алчевск </strong>. <em>Люлбю заниматься спортом</em> </p>
-        <img src="https://i.pinimg.com/originals/99/4b/6e/994b6ec915252d116ab27483243bf9a2.png" width=" 150" alt="tut moe photo">
-        <p>Список социальных сетей:</p>
-        <a href="https://vk.com/artemtarn" target="_blank">Vk</a> 
-        <a href="@Qwert_asdfgzxc" target="_blank">Telegram</a>
-    </div>
-
-    <div>
-        <h1>Мои хобби     </h1>
-        <ol>
-            <li>Путешествие</li>
-            <li>Спорт</li>
-            <li>Плавание</li>
-            <li>Волейбол </li>
-            <li>Дота</li>
-        </ol>
-    </div>
-
+    <div class = 'container'>
+        <div class=" biografia">
+            <img src="https://i.pinimg.com/originals/99/4b/6e/994b6ec915252d116ab27483243bf9a2.png" class ='photo'>
+            <h1 > Таран Артём </h1>
+            <br>
+            <p class="info-text">Меня зовут Артём. мне 16 лет , я родился в городе <strong>Алчевск </strong>. <em>Люлбю заниматься спортом</em>. Тут просто нужно добавить какой-то текст например: в следующем году сдавать ЕГЭ , и я хз вообще как , куда поступать , как двигаться давльше? Ладно все норм , прорвемся. </p>
+            <br>
+            <h4>Список социальных сетей:</h4>
+            <a href="https://vk.com/artemtarn" target="_blank">Vk</a> 
+            <a href="https://t.me/Arttemm_4" target="_blank">Telegram</a>
+        </div>
     
+        <div class = 'myh'>
+            <h1>Мои хобби     </h1>
+            <ul class = 'list'>
+                <li>Путешествие</li>
+                <li>Спорт</li>
+                <li>Плавание</li>
+                <li>Волейбол </li>
+                <li>Дота</li>
+            </ul>
+        </div>
+
+
+        
+        <div class = 'tabliza'>
+            <table class = 'table'>
+                <h1>Таблица с данными</h1> 
+                <thead>
+                    <tr>
+                    <th>Имя</th>
+                    <th>Возраст</th>
+                    <th>Хобби</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tr>
+                    <td>Артём</td>
+                    <td>16</td>
+                    <td>Волейбол</td>
+                    </tr>
+                    <tr>
+                    <td>Тимур</td>
+                    <td>16</td>
+                    <td>футбол</td>
+                    </tr>
+                    <tr>
+                    <td>Афоня</td>
+                    <td>16</td>
+                    <td>Волейбол</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    <hr>
+
+        
+            
+    <form action="/" class ='form'>
+        <h1 >Связаться со мной</h1>
+
+        <div class="form-row">
+
+            <div class="box">
+                <label for="text">Имя</label>
+                <input type="name" id ='name' placeholder="Введите Ваше имя">
+            </div>
+                    
+                    
+            <div class="box">
+                <label for="email">Email</label>
+                <input type="email" id ='email' placeholder="Введите Ваш Email">
+            </div>
+        </div>
+                    
+            <div class="box">
+                <label for="message">Сообщение</label>
+                <br>
+                <textarea  id="message" cols="30" rows="10" placeholder="Введите Ваше сообщение"></textarea>
+            </div>
+
+            <button type="submit" class = 'btn'>Отправить</button>
+        
+ 
 
 
 </body>
 </html>
+
